@@ -1,0 +1,16 @@
+{
+  "name": "QiuShiReact",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "dev menu": "adb shell input keyevent 82",
+    "reverse": "adb reverse tcp:8081 tcp:8081",
+    "wifi adb": "adb connect 192.168.1.205",
+    "logcat": "adb logcat *:S ReactNative:V ReactNativeJS:V"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-native": "^0.26.2"
+  }
+}
